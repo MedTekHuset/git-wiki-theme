@@ -10,7 +10,7 @@ body>.wrapper .octicon {
 }
 
 body>.wrapper .anchor {
-    float: right;
+    float: left;
     line-height: 1;
     margin-left: -20px;
     padding-right: 4px;
