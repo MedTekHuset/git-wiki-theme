@@ -978,7 +978,7 @@ body>.wrapper .pl-12 {
 }
 
 .collapsible:after {
-  content: '\002B'; /* Unicode character for "plus" sign (+) */
+  content: '\2B9F'; /* Unicode character for "plus" sign (+) */
   color: white;
   font-weight: bold;
   float: right;
@@ -986,7 +986,7 @@ body>.wrapper .pl-12 {
 }
 
 .active:after {
-  content: "\2212"; /* Unicode character for "minus" sign (-) */
+  content: "\2B9D"; /* Unicode character for "minus" sign (-) */
 }
 
 .content {
