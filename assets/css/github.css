@@ -962,10 +962,10 @@ body>.wrapper .pl-12 {
 }
 
 .collapsible {
-  background-color: #777;
+  background-color: #9457eb;
   color: white;
   cursor: pointer;
-  padding: 18px;
+  padding: 12px;
   width: 100%;
   border: none;
   text-align: left;
@@ -974,11 +974,11 @@ body>.wrapper .pl-12 {
 }
 
 .active, .collapsible:hover {
-  background-color: #555;
+  background-color: #633a9e;
 }
 
 .collapsible:after {
-  content: '\002B';
+  content: '\002B'; /* Unicode character for "plus" sign (+) */
   color: white;
   font-weight: bold;
   float: right;
@@ -986,11 +986,11 @@ body>.wrapper .pl-12 {
 }
 
 .active:after {
-  content: "\2212";
+  content: "\2212"; /* Unicode character for "minus" sign (-) */
 }
 
 .content {
-  padding: 0 18px;
+  padding: 0 10px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
