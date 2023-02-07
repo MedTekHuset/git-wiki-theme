@@ -12,6 +12,7 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
+<!-- DARKMODE JS  -->
 <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
 <script>
   function addDarkmodeWidget() {
@@ -35,6 +36,9 @@
   window.addEventListener('load', addDarkmodeWidget);
 </script>
 
+<!-- Overlay Scrollbar -->
+<link type="text/css" href="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/2.1.0/styles/overlayscrollbars.min.css" integrity="sha512-SWInhnSfP5LyduITbBbAzzj0LCCw6CBqQIfLMACCnuihNPoTLoOGvT+YVmHsV6ub1VWKrQ2wPhZFmR+c5GZUMw==" crossorigin="anonymous" referrerpolicy="no-referrer" />" rel="stylesheet" />
+<script type="text/javascript" src="<script src="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/2.1.0/browser/overlayscrollbars.browser.es6.min.js" integrity="sha512-1ZEhZBqxxLcq+dqd/djJm4jmpuT2qvHvsLGHkvKbCwde7AN6uz+WSIQpEOmDirXOrbeUIy0hbgajST3wtykKNw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>" defer></script>
 
 {% if site.inc_after_scripts %}
 {% include {{ site.inc_after_scripts }} %}
