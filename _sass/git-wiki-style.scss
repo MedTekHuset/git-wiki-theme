@@ -141,7 +141,7 @@ img {
 #git-wiki-sidebar {
   width: 280px !important;
   float: left;
-  position: relative !important;
+  position: fixed;
   -webkit-font-smoothing: subpixel-antialiased;
   /*overflow-y: auto;
   overflow-x: auto;*/
