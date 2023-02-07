@@ -390,10 +390,11 @@ screen and (max-width: 480px) {
   dark mode
   https://darkmodejs.learn.uno/#debug 
 */
+/*
 .darkmode-layer, .darkmode-toggle {
   z-index: 500;
 }
-
+*/
 /* disable dark mode on images */
 body.darkmode--activated img, body.darkmode--activated .darkmode-ignore {
   mix-blend-mode: difference;
