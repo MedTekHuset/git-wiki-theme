@@ -35,6 +35,8 @@
   window.addEventListener('load', addDarkmodeWidget);
 </script>
 
+{% if page.mermaid %}
+{% include mermaid.html %}
 
 {% if site.inc_after_scripts %}
 {% include {{ site.inc_after_scripts }} %}
