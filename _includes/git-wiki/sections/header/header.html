@@ -7,6 +7,7 @@
     {{ site.title | escape }}
   </a>
 </div>
+<div data-simplebar>
 <header class="w3-sidebar w3-bar-block w3-collapse" id="git-wiki-sidebar">
   <div>
     <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="sidebar_toggle()">Close &times;</button>
@@ -44,6 +45,7 @@
     {% endif %}
   </div>
 </header>
+  </div>
 <script>
   function sidebar_toggle() {
     var sidebar = document.getElementById("git-wiki-sidebar");
