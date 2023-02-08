@@ -1,9 +1,10 @@
 <footer>
+    {% include git-wiki/components/copyrights/copyrights.html %}
     {% if site.inc_before_footer %}
     {% include {{ site.inc_before_footer }} %}
     {% endif %}
 
-    {% include git-wiki/components/copyrights/copyrights.html %}
+   
 
     {% if site.inc_after_footer %}
     {% include {{ site.inc_after_footer }} %}
