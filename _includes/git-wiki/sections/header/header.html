@@ -45,10 +45,12 @@
     {% endif %}
   </div>
 </header>
+
+<!-- Initialize SimpleBar to sidebar -->
 <script>
-    new SimpleBar(document.getElementsByClassName('git-wiki-page'));
-    new SimpleBar(document.getElementById('git-wiki-sidebar'));
+       new SimpleBar(document.getElementById('git-wiki-sidebar'));
 </script>
+
 <script>
   function sidebar_toggle() {
     var sidebar = document.getElementById("git-wiki-sidebar");
