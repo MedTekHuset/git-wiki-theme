@@ -960,6 +960,21 @@ body>.wrapper .pl-12 {
 .darkmode-layer, .darkmode-toggle {
     z-index: 500;
 }
+.sidebarHeader {
+  background-color: #6c6c79;
+  color: white;
+  cursor: pointer;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .sidebarHeader:hover {
+  background-color: #3e3e45;
+}
 
 .collapsible {
   background-color: #6c6c79;
