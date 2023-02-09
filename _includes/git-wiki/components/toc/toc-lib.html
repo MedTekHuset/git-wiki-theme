@@ -30,7 +30,8 @@
     {% endcomment %}
 
     {% capture my_toc %}{% endcapture %}
-    {% assign title = include.title | default: "Contents:" %}
+<!--     {% assign title = include.title | default: "Contents:" %} -->
+    {% assign title = include.title | default: "" %}
     {% assign minHeaders = include.minHeaders | default: 1 %}
     {% assign orderedList = include.ordered | default: false %}
     {% assign minHeader = include.h_min | default: 1 %}
