@@ -976,11 +976,11 @@ body>.wrapper .pl-12 {
 }
 
 .vertical-menu a:hover {
-  background-color: #3e3e45; /* Dark grey background on mouse-over */
+  background-color: #3e3e45 !important; /* Dark grey background on mouse-over */
 }
 
 .vertical-menu a.active {
-  background-color: #3e3e45; /* Add a green color to the "active/current" link */
+  background-color: #3e3e45 !important; /* Add a green color to the "active/current" link */
  /* color: white; */
 }
 
