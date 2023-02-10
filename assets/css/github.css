@@ -969,10 +969,10 @@ body>.wrapper .pl-12 {
   background-color: #6c6c79 !important; /* Grey background color */
   color: white !important; /* Black text color */
   display: block; /* Make the links appear below each other */
-  padding: 12px; /* Add some padding */
+  padding: 12px !important; /* Add some padding */
   text-decoration: none !important; /* Remove underline from links */
-  font-size: 15px;
-  cursor: pointer;
+  font-size: 15px !important;
+  cursor: pointer !important;
 }
 
 .vertical-menu a:hover {
