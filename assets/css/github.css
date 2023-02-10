@@ -967,10 +967,12 @@ body>.wrapper .pl-12 {
 
 .vertical-menu a {
   background-color: #6c6c79;; /* Grey background color */
-  color: black; /* Black text color */
+  color: white; /* Black text color */
   display: block; /* Make the links appear below each other */
   padding: 12px; /* Add some padding */
   text-decoration: none; /* Remove underline from links */
+  font-size: 15px;
+  cursor: pointer;
 }
 
 .vertical-menu a:hover {
@@ -979,7 +981,7 @@ body>.wrapper .pl-12 {
 
 .vertical-menu a.active {
   background-color: #3e3e45; /* Add a green color to the "active/current" link */
-  color: white;
+ /* color: white; */
 }
 
 .collapsible {
