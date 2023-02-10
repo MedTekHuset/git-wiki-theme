@@ -192,9 +192,6 @@ body>.wrapper summary {
     display: list-item;
 }
 
-body>.wrapper a {
-    background-color: transparent;
-}
 
 body>.wrapper a:active,
 body>.wrapper a:hover {
