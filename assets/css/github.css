@@ -976,6 +976,27 @@ a.active, a.sidebarHeader:hover {
   background-color: #3e3e45;
 }
 
+.vertical-menu {
+  width: 100%; /* Set a width if you like */
+}
+
+.vertical-menu a {
+  background-color: #6c6c79;; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: #3e3e45; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #3e3e45; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
 .collapsible {
   background-color: #6c6c79;
   color: white;
@@ -991,6 +1012,8 @@ a.active, a.sidebarHeader:hover {
 .active, .collapsible:hover {
   background-color: #3e3e45;
 }
+
+  
 
 .collapsible:after {
   content: '\2B9F'; /* Unicode character for "plus" sign (+) */
