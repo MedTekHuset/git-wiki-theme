@@ -1017,7 +1017,7 @@ a.active, a.sidebarHeader:hover {
   
 
 .collapsible:after {
-  content: '\2B9F'; /* Unicode character for "plus" sign (+) */
+  content: "\2B9E"; /* Unicode character for "plus" sign (+) */
   color: white;
   font-weight: bold;
   float: right;
@@ -1025,7 +1025,7 @@ a.active, a.sidebarHeader:hover {
 }
 
 .active:after {
-  content: "\2B9D"; /* Unicode character for "minus" sign (-) */
+  content: "\2B9F"; /* Unicode character for "minus" sign (-) */
 }
 
 .content {
