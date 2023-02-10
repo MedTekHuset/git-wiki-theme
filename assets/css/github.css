@@ -960,22 +960,6 @@ body>.wrapper .pl-12 {
 .darkmode-layer, .darkmode-toggle {
     z-index: 500;
 /* https://darkmodejs.learn.uno/#debug */
-}
-a.sidebarHeader {
-  background-color: #6c6c79;
-  color: white;
-  cursor: pointer;
-  padding: 12px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-
-a.active, a.sidebarHeader:hover {
-  background-color: #3e3e45;
-}
 
 .vertical-menu {
   width: 100%; /* Set a width if you like */
