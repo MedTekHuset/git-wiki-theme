@@ -36,7 +36,7 @@
     {% assign minHeaders = include.minHeaders | default: 1 %}
     {% assign orderedList = include.ordered | default: false %}
     {% assign minHeader = include.h_min | default: 1 %}
-    {% assign maxHeader = include.h_max | default: 6 %}
+    {% assign maxHeader = include.h_max | default: 3 %}  <!-- [NS]:edit -->
     {% assign nodes = include.html | split: '<h' %}
     {% assign firstHeader = true %}
 
